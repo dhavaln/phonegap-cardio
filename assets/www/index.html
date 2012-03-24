@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1"/>
+<link rel="stylesheet" href="css/jquery.mobile-1.0rc1.min.css" />
+
+</head>
+<body >
+
+<div id="indexPage" data-role="page" >
+
+	<div data-role="header" >
+		<h1>Payment</h1>
+	</div>
+
+	<div data-role="content" >
+	    <a href="#" data-role="button" id="home" >Scan Card</a>
+    </div>	
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/phonegap.js"></script>
+<script src="js/jquery.mobile.js"></script>
+<script src="js/appcomm.js"></script>
+
+<script type="text/javascript">
+	$("#home").click(function(){
+		window.plugins.appcomm.scan();
+	});
+</script>
+</body>
+</html>

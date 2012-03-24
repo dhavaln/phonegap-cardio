@@ -1,0 +1,180 @@
+#employeePic {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 16px;
+}
+
+#employeeDetails p {
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+#actionList {
+	clear: both;
+}
+
+.notifications-count {
+	display: none;
+	font-size: 1em;
+	padding: 5px 5px;
+	margin-left: 3px;
+	background-color: #5BC2FC;
+	color : #2b2b2b;
+}
+
+.notifications-list#notesTitle {
+	text-decoration: none;
+	font-size: 17px;
+	font-family: verdana;
+}
+
+
+/* layout on front screen */
+#welcome-note table td {
+vertical-align : top;
+padding-bottom : 5px;
+}
+
+/* general help texts */
+.help_text {
+color : white;
+border : 1px solid grey;
+width : 100%;
+background-color : black;
+padding : 5px;
+
+}
+
+.help_highlight {
+color : #5BC2FC;
+}
+
+/* workflow styling   =====  */
+
+.workflow-item-status{
+	color: blue;
+	font-weight: bold;
+}
+
+.workflow-head-label {
+	font-weight: bold;
+	color : #5BC2FC;
+	}
+
+	#approval_footer_1 #approve {
+	background-color : green;
+	}
+	
+	#approval_footer_1 #showreject {
+	background-color : red;
+	}
+	
+	
+	/* Workflow approval list 
+	overwrite jquery style to set 48x48 image
+	*/
+	#approveList .ui-li-has-thumb .ui-btn-inner { 
+	    min-height: 48px; 
+	    padding-left: 5px;
+	    padding-right : 0px;
+	    padding-top : 5px;
+	     } 
+	
+
+	#approveList .ui-link-inherit { 
+	    min-height: 48px; 
+	    padding-left: 55px;
+	    padding-top : 0px;
+	     } 
+	#approveList .ui-li-heading {
+	margin-top : 1px;
+	font-size : 12px;
+	white-space : normal;
+	}
+
+	#approveList .ui-li-desc {
+	margin-top : 1px;
+	font-size : 12px;
+	white-space : normal;
+	}
+
+	
+	/* Notification list 
+	overwrite jquery style to set 48x48 image
+	*/
+	#notelist .ui-li-has-thumb .ui-btn-inner { 
+	    min-height: 48px; 
+	    padding-left: 5px;
+	    padding-right : 0px;
+	    padding-top : 5px;
+	     } 
+	
+
+	#notelist .ui-link-inherit { 
+	    min-height: 48px; 
+	    padding-left: 55px;
+	    padding-top : 0px;
+	     } 
+	#notelist .ui-li-heading {
+	margin-top : 1px;
+	font-size : 12px;
+	white-space : normal;
+	}
+
+	#notelist .ui-li-desc {
+	margin-top : 1px;
+	font-size : 12px;
+	white-space : normal;
+	}
+	
+	
+	
+	/*
+	Main menu list - 60px icons
+	*/
+	
+	#mainMenuList .ui-li-has-thumb .ui-btn-inner { 
+	    min-height: 60px; 
+	    padding-left: 5px;
+	    padding-right : 0px;
+	    padding-top : 5px;
+	     } 
+	
+
+	#mainMenuList .ui-link-inherit { 
+	    min-height: 60px; 
+	    padding-left: 70px;
+	    padding-top : 0px;
+	     } 
+	#notelist .ui-li-heading {
+	margin-top : 1px;
+	white-space : normal;
+	}
+
+	#notelist .ui-li-desc {
+	margin-top : 1px;
+	white-space : normal;
+	}
+	
+	
+	.payslipDetail  {
+	  width:100%; 
+	}
+
+.payslipDetail  .col1){
+	text-align : left;
+	width: 60%;
+	color :  #5BC2FC;
+	
+	}
+
+
+.payslipDetail  .col2{
+	text-align : right;
+	
+	}
+
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}	
